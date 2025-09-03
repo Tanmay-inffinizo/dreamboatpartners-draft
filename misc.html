@@ -1,0 +1,298 @@
+    <!-- Categories -->
+
+      <div class="container-xxl vh-auto d-flex flex-column justify-content-top align-items-center py-5">
+        <h1>Categories</h1>
+        <div class="row g-3">
+
+          <div class="col-lg-3 "> 
+           <div class="p-5 border image-wrapper rounded-3">
+            <img src="css/images/image-removebg-preview.png" class="img-fluid categories-image" alt="">
+          </div>
+          </div>
+               <div class="col-lg-3 "> 
+           <div class="p-5 border image-wrapper rounded-3">
+            <img src="css/images/image-removebg-preview.png" class="img-fluid categories-image" alt="">
+          </div>
+          </div>
+
+               <div class="col-lg-3 "> 
+           <div class="p-5 border image-wrapper rounded-3">
+            <img src="css/images/image-removebg-preview.png" class="img-fluid categories-image" alt="">
+          </div>
+          </div>
+            <div class="col-lg-3 "> 
+           <div class="p-5 border image-wrapper rounded-3">
+            <img src="css/images/image-removebg-preview.png" class="img-fluid categories-image" alt="">
+          </div>
+          </div>
+            <div class="col-lg-3 "> 
+           <div class="p-5 border image-wrapper rounded-3">
+            <img src="css/images/image-removebg-preview.png" class="img-fluid categories-image" alt="">
+          </div>
+          </div>
+            <div class="col-lg-3 "> 
+           <div class="p-5 border image-wrapper rounded-3">
+            <img src="css/images/image-removebg-preview.png" class="img-fluid categories-image" alt="">
+          </div>
+          </div>
+            <div class="col-lg-3 "> 
+           <div class="p-5 border image-wrapper rounded-3">
+            <img src="css/images/image-removebg-preview.png" class="img-fluid categories-image" alt="">
+          </div>
+          </div>
+          <div class="col-lg-3 "> 
+           <div class="p-5 border image-wrapper rounded-3">
+            <img src="css/images/image-removebg-preview.png" class="img-fluid categories-image" alt="">
+          </div>
+          </div>
+            <div class="col-lg-3 "> 
+           <div class="p-5 border image-wrapper rounded-3">
+            <img src="css/images/image-removebg-preview.png" class="img-fluid categories-image" alt="">
+          </div>
+          </div>
+            <div class="col-lg-3 "> 
+           <div class="p-5 border image-wrapper rounded-3">
+            <img src="css/images/image-removebg-preview.png" class="img-fluid categories-image" alt="">
+          </div>
+          </div>
+            <div class="col-lg-3 "> 
+           <div class="p-5 border image-wrapper rounded-3">
+            <img src="css/images/image-removebg-preview.png" class="img-fluid categories-image" alt="">
+          </div>
+          </div>
+            <div class="col-lg-3 "> 
+           <div class="p-5 border image-wrapper rounded-3">
+            <img src="css/images/image-removebg-preview.png" class="img-fluid categories-image" alt="">
+          </div>
+          </div>
+
+        </div>
+      </div>
+
+
+      <!-- style  -->
+
+      /* hover images */
+.image-wrapper {
+  overflow: hidden;
+  position: relative;
+}
+
+.categories-image {
+  transition: transform 0.2s ease;
+  will-change: transform;
+  pointer-events: none;
+}
+
+.image-wrapper{
+  transition: all 0.3s ease-in-out;
+
+}
+.image-wrapper:hover{
+  background: #00afef50;
+  border-radius: 20px;
+}
+
+
+<!-- javascript -->
+
+
+// Hover effect for categories 
+const wrappers = document.querySelectorAll('.image-wrapper');
+
+  wrappers.forEach(wrapper => {
+    const image = wrapper.querySelector('.categories-image');
+
+    wrapper.addEventListener('mousemove', (e) => {
+      const bounds = wrapper.getBoundingClientRect();
+      const x = e.clientX - bounds.left;
+      const y = e.clientY - bounds.top;
+
+      const centerX = bounds.width / 2;
+      const centerY = bounds.height / 2;
+
+      const moveX = (x - centerX) * -0.5;
+      const moveY = (y - centerY) * -0.5;
+
+      gsap.to(image, {
+        x: moveX,
+        y: moveY,
+        duration: 0.5,
+        ease: "power2.out"
+      });
+    });
+
+    wrapper.addEventListener('mouseleave', () => {
+      gsap.to(image, {
+        x: 0,
+        y: 0,
+        duration: 0.6,
+        ease: "power3.out"
+      });
+    });
+  });
+
+
+
+  <!--  
+   -->
+
+
+   	<div class="content">
+		<div class="top">
+			<div class="top-left">
+				<p>Creative Studio</p>
+				<p>Digital Agency</p>
+			</div>
+			<div class="top-right">
+				<p>Portfolio 2024</p>
+				<p>Latest Work</p>
+			</div>
+		</div>
+		<div class="center">
+			<div class="top-title">
+				<p>We Create</p>
+			</div>
+			<div class="title-center">
+				<h1>Digital Experiences</h1>
+			</div>
+			<div class="title-bottom">
+				<p>That Matter</p>
+			</div>
+		</div>
+		<div class="bottom">
+			<div class="top-left">
+				<p>Web Design</p>
+				<p>Brand Identity</p>
+			</div>
+			<div class="top-right">
+				<p>UI/UX Design</p>
+				<p>Development</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<!-- hover image -->
+ 
+// =====================
+// Case Study Hover Follow
+// =====================
+gsap.set('.case-study img.case-study-image', { yPercent: -50, xPercent: -50 });
+
+let activeImage;
+gsap.utils.toArray(".case-study").forEach((el) => {
+  let image = el.querySelector('img.case-study-image'),
+      setX, setY,
+      align = e => { setX(e.clientX); setY(e.clientY); },
+      startFollow = () => document.addEventListener("mousemove", align),
+      stopFollow = () => document.removeEventListener("mousemove", align),
+      fade = gsap.to(image, { autoAlpha: 1, ease: "none", paused: true, onReverseComplete: stopFollow });
+
+  el.addEventListener('mouseenter', (e) => {
+    fade.play();
+    startFollow();
+    if (activeImage) {
+      gsap.set(image, {
+        x: gsap.getProperty(activeImage, "x"),
+        y: gsap.getProperty(activeImage, "y")
+      });
+    }
+    activeImage = image;
+    setX = gsap.quickTo(image, "x", { duration: 0.6, ease: "power3" });
+    setY = gsap.quickTo(image, "y", { duration: 0.6, ease: "power3" });
+    align(e);
+  });
+
+  el.addEventListener('mouseleave', () => fade.reverse());
+});
+
+
+<!--  text from behind iamge  -->
+
+gsap.fromTo("#hero-text",
+  { opacity: 0, y: 0 },
+  {
+    opacity: 1,
+    y: () => window.innerWidth < 768 ? -100 : -435, // smaller shift on mobile
+    color: "#ffffff",
+    ease: "power2.inOut",
+    scrollTrigger: {
+      trigger: "#hero-section",
+      start: "top top",
+      end: "bottom top",
+      scrub: 1,
+      pin: true,
+      anticipatePin: 1,
+      onEnter: () => {
+        gsap.to("#hero-section", {
+          backgroundColor: "#222",
+          duration: 1.5,
+          ease: "power2.out"
+        });
+      },
+      onLeaveBack: () => {
+        gsap.to("#hero-section", {
+          backgroundColor: "initial",
+          duration: 1.5,
+          ease: "power2.out"
+        });
+      },
+    },
+  }
+);
+
+
+<!-- 
+ #hero-section {
+    position: relative;
+    width: 100%;
+    height: auto;   /* true fullscreen section */
+    overflow: hidden;
+  }
+  #hero-text {
+    position: absolute;
+    top: 55%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    text-align: right;
+    width: 50%;
+    z-index: 1;
+  }
+  #hero-image {
+    width: 100%;
+    height: auto;
+    z-index: 2;
+    position: relative;
+  }
+@media (max-width:768px) {
+    #hero-section {
+        height: 95vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+     #hero-text{
+      width: 85% !important;
+      top:30% !important;
+    left: 100%;
+    transform: translate(-80%, -50%) !important;
+    opacity: 1;
+     }
+}
+@media (max-width: 1550px) {
+    #hero-section {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+     #hero-text{
+      width: 35%;
+      top: 90%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+     }
+} -->

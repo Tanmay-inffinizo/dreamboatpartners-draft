@@ -1,0 +1,233 @@
+[
+  {
+    "id": "grc-cladding",
+    "name": "GRC Cladding",
+    "subTitle": "An Architectural Masterpiece for Your Building",
+    "description": "GRC cladding is a modern, lightweight, and durable solution for exterior walls. It offers exceptional design flexibility, allowing for intricate patterns and textures. It is highly resistant to weather and fire, making it a reliable choice for various construction projects.",
+    "images": [
+      "css/images/about-body-image.jpg",
+      "css/images/gfrc%20deign%20vertical.jpg",
+      "css/images/gfrc%20wall%20with%20human.jpg",
+      "css/images/gfrc-cladding.jpg",
+      "css/images/png-bg-1.png"
+    ],
+    "additionalParagraph": "Our GRC cladding is custom-designed to provide a seamless and high-performance facade for your building. It’s a popular choice for both new construction and renovation projects due to its ability to mimic various textures like stone, brick, or even wood, all while offering superior strength and longevity. The lightweight nature of GRC reduces the structural load on the building, making it a cost-effective and efficient solution for architects and developers.",
+    "keyPointers": [
+      "Lightweight and strong",
+      "High weather and fire resistance",
+      "Unlimited design flexibility",
+      "Reduced structural load",
+      "Durable and low-maintenance"
+    ]
+  },
+  {
+    "id": "gfrc-columns",
+    "name": "GFRC Columns",
+    "subTitle": "Sturdy and Elegant Structural Elements",
+    "description": "GFRC columns combine the strength of concrete with the lightness of fiberglass. They are perfect for both decorative and structural purposes, providing a classic, sophisticated look. They're easy to install and require minimal maintenance.",
+    "images": [
+      "css/images/gfrc-columns-banner.jpg",
+      "css/images/gfrc-columns-1.jpg",
+      "css/images/gfrc-columns-2.jpg",
+      "css/images/gfrc-columns-3.jpg",
+      "css/images/gfrc-columns-4.jpg"
+    ],
+    "additionalParagraph": "Our GFRC columns are a testament to classic design and modern engineering. They provide the look and feel of traditional stone columns without the prohibitive weight and cost. Whether for a residential entrance or a large commercial facade, these columns are simple to install and come in a variety of styles, from Doric to Corinthian. Their resistance to cracking and environmental damage makes them a superior choice for any project.",
+    "keyPointers": [
+      "Classical aesthetics",
+      "Lightweight and durable",
+      "Easy to install",
+      "Customizable designs and finishes",
+      "Low maintenance"
+    ]
+  },
+  {
+    "id": "grc-balluster",
+    "name": "GRC Balluster",
+    "subTitle": "Classic Design with Modern Durability",
+    "description": "GRC balusters are ideal for staircases, balconies, and railings, offering a traditional aesthetic without the weight and fragility of natural stone. Their resistance to environmental factors ensures long-lasting beauty and integrity.",
+    "images": [
+      "css/images/grc-balluster-banner.jpg",
+      "css/images/grc-balluster-1.jpg",
+      "css/images/grc-balluster-2.jpg",
+      "css/images/grc-balluster-3.jpg",
+      "css/images/grc-balluster-4.jpg"
+    ],
+    "additionalParagraph": "GRC balusters offer an elegant and safe solution for any railing system. They are designed to withstand the elements and heavy use, maintaining their detailed form for decades. Our balusters are available in multiple designs, from intricate Victorian styles to simple, clean lines, allowing them to fit seamlessly into any architectural theme. They provide the perfect finishing touch to balconies and staircases, both indoors and outdoors.",
+    "keyPointers": [
+      "Durable and strong",
+      "Weather-resistant",
+      "Lightweight alternative to stone",
+      "Variety of classic and modern designs",
+      "Ideal for railings and balconies"
+    ]
+  },
+  {
+    "id": "grc-domes",
+    "name": "GRC Domes",
+    "subTitle": "Exquisite Architectural Features for Grand Spaces",
+    "description": "GRC domes are custom-fabricated to add a touch of grandeur and elegance to any building. Their lightweight nature makes them suitable for rooftops and large spans, providing both structural integrity and visual appeal.",
+    "images": [
+      "css/images/grc-domes-banner.jpg",
+      "css/images/grc-domes-1.jpg",
+      "css/images/grc-domes-2.jpg",
+      "css/images/grc-domes-3.jpg",
+      "css/images/grc-domes-4.jpg"
+    ],
+    "additionalParagraph": "GRC domes are a signature element of our architectural products, offering an elegant solution for a building's most prominent features. Our custom fabrication process allows for intricate patterns and designs, ensuring each dome is a unique work of art. The lightweight properties of GRC make these domes easy to transport and install, significantly reducing construction time and costs. They are a perfect choice for religious buildings, government offices, and luxury residential projects.",
+    "keyPointers": [
+      "Customizable to any design",
+      "Lightweight and easy to install",
+      "Provides structural integrity",
+      "High aesthetic value",
+      "Suitable for large-span roofs"
+    ]
+  },
+  {
+    "id": "grc-panels",
+    "name": "GRC Panels",
+    "subTitle": "Versatile and Aesthetic Paneling Solutions",
+    "description": "GRC panels are used for facades, interior walls, and decorative elements. They are highly customizable in shape, color, and texture, providing architects and designers with endless creative possibilities for their projects.",
+    "images": [
+      "css/images/grc-panels-banner.jpg",
+      "css/images/grc-panels-1.jpg",
+      "css/images/grc-panels-2.jpg",
+      "css/images/grc-panels-3.jpg",
+      "css/images/grc-panels-4.jpg"
+    ],
+    "additionalParagraph": "GRC panels are the go-to choice for architects seeking versatility and durability. Their modular nature allows for quick and efficient installation on both new and existing structures. We offer a wide range of finishes, including exposed aggregate, smooth finishes, and custom textures, to perfectly match your project's aesthetic. These panels are also excellent for thermal insulation and acoustic dampening, making them a smart choice for modern buildings.",
+    "keyPointers": [
+      "Highly customizable",
+      "Quick and easy installation",
+      "Excellent thermal properties",
+      "Durable and weather-resistant",
+      "Suitable for facades and interiors"
+    ]
+  },
+  {
+    "id": "grc-planters",
+    "name": "GRC Planters",
+    "subTitle": "Durable and Stylish Outdoor Planters",
+    "description": "GRC planters are an excellent addition to public spaces, gardens, and patios. They are lightweight yet extremely durable, able to withstand harsh weather conditions while maintaining their aesthetic appeal. Available in various designs and sizes.",
+    "images": [
+      "css/images/grc-planters-banner.jpg",
+      "css/images/grc-planters-1.jpg",
+      "css/images/grc-planters-2.jpg",
+      "css/images/grc-planters-3.jpg",
+      "css/images/grc-planters-4.jpg"
+    ],
+    "additionalParagraph": "Our GRC planters are designed for both beauty and function. Unlike traditional concrete planters, they are lightweight enough to be moved easily while being incredibly resilient to frost, heat, and UV rays. This makes them perfect for any outdoor setting, from bustling cityscapes to tranquil private gardens. We offer a variety of shapes, sizes, and colors to help you create the perfect green space.",
+    "keyPointers": [
+      "Lightweight and portable",
+      "Highly durable",
+      "Weather-resistant",
+      "Available in multiple styles",
+      "Suitable for commercial and residential use"
+    ]
+  },
+  {
+    "id": "grc-benches",
+    "name": "GRC Benches",
+    "subTitle": "Modern and Resilient Seating for Public Spaces",
+    "description": "GRC benches are designed for public parks, plazas, and outdoor areas. They are robust, graffiti-resistant, and low-maintenance, making them a practical choice for high-traffic environments. Their sleek design complements modern landscapes.",
+    "images": [
+      "css/images/grc-benches-banner.jpg",
+      "css/images/grc-benches-1.jpg",
+      "css/images/grc-benches-2.jpg",
+      "css/images/grc-benches-3.jpg",
+      "css/images/grc-benches-4.jpg"
+    ],
+    "additionalParagraph": "Our GRC benches are not only stylish but also incredibly practical for public use. They are cast with a high-strength GRC mix that resists chipping and cracking, ensuring they remain a fixture in your space for years to come. The smooth surface is easy to clean and maintain, making them a cost-effective and safe choice for municipal projects and public spaces.",
+    "keyPointers": [
+      "Graffiti-resistant",
+      "Low maintenance",
+      "Durable and robust",
+      "Sleek, modern design",
+      "Suitable for high-traffic areas"
+    ]
+  },
+  {
+    "id": "grc-cornices",
+    "name": "GRC Cornices",
+    "subTitle": "Elegant Detailing for Architectural Finishes",
+    "description": "GRC cornices add a classic, decorative touch to the exterior of buildings. They are lightweight and easy to install, providing a sophisticated finish that is resistant to cracking and weathering.",
+    "images": [
+      "css/images/grc-cornices-banner.jpg",
+      "css/images/grc-cornices-1.jpg",
+      "css/images/grc-cornices-2.jpg",
+      "css/images/grc-cornices-3.jpg",
+      "css/images/grc-cornices-4.jpg"
+    ],
+    "additionalParagraph": "GRC cornices are a perfect way to add a touch of timeless elegance to a building's facade. These decorative elements are lightweight, making them easy to handle and install, which saves time and labor costs. Unlike traditional materials, GRC cornices are resistant to moisture, rot, and insects, ensuring their beauty lasts for years with minimal upkeep. They can be custom-made to match any architectural style, from classical to contemporary.",
+    "keyPointers": [
+      "Adds classic aesthetic appeal",
+      "Lightweight and easy to install",
+      "Resistant to cracking and weathering",
+      "Cost-effective alternative to stone",
+      "Durable and long-lasting"
+    ]
+  },
+  {
+    "id": "grc-jalis",
+    "name": "GRC Jalis",
+    "subTitle": "Intricate Screen Work for Light and Privacy",
+    "description": "GRC jalis (screens) are perfect for creating beautiful, perforated facades that allow for ventilation and diffused light while maintaining privacy. They are customizable with complex patterns and are highly durable.",
+    "images": [
+      "css/images/grc-jalis-banner.jpg",
+      "css/images/grc-jalis-1.jpg",
+      "css/images/grc-jalis-2.jpg",
+      "css/images/grc-jalis-3.jpg",
+      "css/images/grc-jalis-4.jpg"
+    ],
+    "additionalParagraph": "GRC jalis are more than just a decorative element; they are a functional part of a building's design. They provide a unique way to manage sunlight and airflow, creating a comfortable indoor environment. Their durability and resistance to harsh weather conditions make them a smart choice for exterior facades. Our advanced fabrication process allows us to create intricate and complex patterns that would be difficult or impossible with traditional materials.",
+    "keyPointers": [
+      "Provides privacy and shade",
+      "Promotes ventilation",
+      "Durable and weather-resistant",
+      "Highly customizable patterns",
+      "Aesthetic and functional"
+    ]
+  },
+  {
+    "id": "grc-gothic",
+    "name": "GRC Gothic",
+    "subTitle": "Classic Gothic Elements Reimagined in GRC",
+    "description": "Our GRC Gothic elements, including arches, gargoyles, and intricate tracery, bring the timeless beauty of Gothic architecture into modern construction. These pieces are lightweight, strong, and highly detailed.",
+    "images": [
+      "css/images/grc-gothic-banner.jpg",
+      "css/images/grc-gothic-1.jpg",
+      "css/images/grc-gothic-2.jpg",
+      "css/images/grc-gothic-3.jpg",
+      "css/images/grc-gothic-4.jpg"
+    ],
+    "additionalParagraph": "Our GRC Gothic elements are a modern solution for preserving and recreating the rich history of Gothic architecture. By using GRC, we can create lightweight, strong, and highly detailed pieces that are easier to install and more durable than their traditional stone counterparts. Our artisans can replicate classic designs or create new, bespoke pieces to suit your project's needs, making them ideal for both restoration work and new constructions.",
+    "keyPointers": [
+      "Lightweight and strong",
+      "Highly detailed and intricate",
+      "Replicates classic stone designs",
+      "Durable and weather-resistant",
+      "Suitable for restoration and new projects"
+    ]
+  },
+  {
+    "id": "grc-etc",
+    "name": "GRC etc",
+    "subTitle": "Custom Solutions for Your Unique Vision",
+    "description": "We offer a wide range of custom GRC products to meet your specific architectural needs. From sculptures to bespoke decorative pieces, our team can help you bring your unique ideas to life with the versatility of GRC.",
+    "images": [
+      "css/images/grc-etc-banner.jpg",
+      "css/images/grc-etc-1.jpg",
+      "css/images/grc-etc-2.jpg",
+      "css/images/grc-etc-3.jpg",
+      "css/images/grc-etc-4.jpg"
+    ],
+    "additionalParagraph": "At our company, we thrive on bringing unique architectural visions to life. Our custom GRC products are a testament to the versatility of the material. Whether you need a specific sculpture for a public space, a bespoke facade element, or a unique furniture piece, we have the expertise to deliver. We work closely with our clients to ensure every detail of their custom project is realized with precision and quality.",
+    "keyPointers": [
+      "Tailored to your specific needs",
+      "Endless creative possibilities",
+      "High-quality custom fabrication",
+      "Versatile and durable material",
+      "From sculptures to decorative pieces"
+    ]
+  }
+]
